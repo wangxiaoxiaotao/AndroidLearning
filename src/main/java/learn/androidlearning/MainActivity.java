@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(MainActivity.this,"你点击了1按钮",Toast.LENGTH_SHORT).show();
             Toast.makeText(MainActivity.this, "你好", Toast.LENGTH_SHORT).show();
             Toast.makeText(MainActivity.this, "nihao", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "git测试4", Toast.LENGTH_SHORT).show();
         }
     }
 }
