@@ -1,5 +1,6 @@
 package learn.androidlearning;
 
+import android.content.Intent;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         public void onClick(View view){
             Toast.makeText(MainActivity.this,"你点击了1按钮",Toast.LENGTH_SHORT).show();
+            Intent intent =new Intent(MainActivity.this,newActivityTest.class);
+            startActivity(intent);
         }
     }
 }
